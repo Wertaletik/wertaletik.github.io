@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap");
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+    background-color: rgb(31, 101, 233);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-links a {
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.header-links a:hover {
+    color: gray;
+    transform: scale(1.25);
+    transition: 0.25s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.athens-inner {
+    text-align: center;
+    padding: 200px 0;
+    color: white;
+}
+
+.athens {
+    background-image: url(https://internataksu.kz/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-23-at-18.30.09-1-678x381.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.athens-inner h5 {
+    font-size: 20px;
+    line-height: 19.5px;
+}
+
+.athens-inner h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.than {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQozyzYxMfK1o98XfpwTASZibhUURPFyJ7xYw&usqp=CAU);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.than-img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.than-img {
+    border-radius: 13px;
+}
+
+.than-tittle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.than-tittle h1 {
+    font-size: 36px;
+    color: rgb(255, 102, 0);
+}
+
+.than-inner{
+    padding: 100px 0;
+}
+
+.than-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.than-item{
+    width: 30%;
+}
+
+.than-item h2 {
+    font-size: 18px;
+}
+
+.than-item p {
+    color: #999999;
+}
+
+.sight{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sight-inner{
+    padding: 110px 0;
+}
+
+.sight-text h2{
+    font-size: 36px;
+    
+}
+
+.sight-info {
+    display: flex;
+}
+
+.sight-text p {
+    opacity: 0.4;
+}
+
+.sight-text {
+    padding-left: 70px;
+    
+}
+
+.sight-text-2 p{
+    padding-right: 70px;
+    opacity: 0.4;
+}
+
+.sight-img {
+    width: 50%;
+}
+
+.video {
+    background-image: url(https://wallpaperaccess.com/full/1665473.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-inner h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.video-inner p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.video-inner {
+    padding: 100px 0;
+}
+
+.video-box {
+    background-image: url(https://optimism.kz/wp-content/uploads/2024/09/ee5a0ecce908eb24620f386d19b6a6a7_original-1848718.png);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.video-button span {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid lightblue;
+    padding: 24px;
+    border-radius: 100px;
+    background-color: lightblue;
+    color: black;
+}
+
+.video-button :hover {
+    transform: scale(1.25);
+    transition: 0.3s;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+    display: none;
+}
+
+.modal-closed {
+    height: 5vh;
+    background-color: white;
+    text-align: right;
+}
+
+.footer {
+    background-color: #E0E0E0;
+}
+
+.footer-content {
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-item {
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-item {
+    padding: 10px 0;
+}
+
+.footer-2021 {
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #999999;
+}
+
+li a{
+    color: #999999;
+}
+.header-img {
+    padding: 10px;
+    height: 10vh;
+}
+
+.header-img:hover {
+    transform: scale(1.30);
+    transition: 0.2s;
+}
+
+#arrow {
+    position: fixed;
+    right: 0;
+    transform: rotate(-90deg);
+    display: none;
+}
+
+.sight-img:hover {
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+@media (max-width:690px) {
+    .container {
+        width: auto;
+        margin: 0 10px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .athens-inner h1 {
+        font-size: 20px;
+    }
+    
+    .athens-inner {
+        padding: 110px 0;
+    }
+
+    .than-inner h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .than-inner p {
+        font-size: 14px;
+    }
+    .than-item {
+        display: block;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .than-item img {
+        width: 60%;
+    }
+
+    .sight-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sight-img{
+        width: 100%;
+    }
+
+    .footer-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .sight-info {
+        display: block;
+    }
+    .video-inner img{
+        display: flex;
+    }
+
+    .video-inner h1 {
+        width: 80%;
+        color: black;
+    }
+    .video-inner p {
+        width: 80%;
+        color: black;
+    }
+    .video-inner img {
+        background-position: left;
+    }
+    .video-box {
+        width: 80%;
+    }
+}
